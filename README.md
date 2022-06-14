@@ -12,7 +12,7 @@ C Program to send e-mail when motion is detected with RaspberryPI PIR sensor.<br
 
 ## Possible Mistakes and Errors
 ### 1- Google SMTP
-If you are going to use Google SMTP, you will need to get an application password to the sender email address (this is because as of 05/31/2022 Google has irreversibly blocked access to your account from untrusted sources). If you enter this password in the SMTPPASS section, the problem will be solved.
+If you are going to use Google SMTP, you will need to get an application password to the sender email address (this is because as of 05/31/2022 Google has irreversibly blocked access to your account from untrusted sources). If you enter this password in the SMTPPASS section, the problem will be solved. [Sign in using app passwords Google Help](https://support.google.com/mail/answer/185833?hl=en-GB)
 
 ### 2- Shared Library Error 
 In terminal:<br/>
