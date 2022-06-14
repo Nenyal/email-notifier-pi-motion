@@ -15,8 +15,8 @@ C Program to send e-mail when motion is detected with RaspberryPI PIR sensor.<br
 If you are going to use Google SMTP, you will need to get an application password to the sender email address (this is because as of 05/31/2022 Google has irreversibly blocked access to your account from untrusted sources). If you enter this password in the SMTPPASS section, the problem will be solved.
 
 ### 2- Shared Library Error 
-In terminal:
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+In terminal:<br/>
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib<br/>
 export LD_LIBRARY_PATH
 
 ### 3- Continuous Email Sending
