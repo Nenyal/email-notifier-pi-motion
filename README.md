@@ -1,13 +1,13 @@
 # C Program to send e-mail when motion RaspberryPI
-C Program to send e-mail when motion is detected with RaspberryPI PIR sensor
+C Program to send e-mail when motion is detected with RaspberryPI PIR sensor.<br/>
 [Source for PIR sensor](https://projects.raspberrypi.org/en/projects/physical-computing/11)
 
 ## Steps:
-1- Download and install all libraries except libquickmail.
-2- Extract the tar file of libquickmail. Terminal commands, respectively, to install the libquickmail library: ./configure, make, sudo su, make install, exit.
-3- Copy the project.c script into this folder, where you installed libquickmail. (../../libquickmail-0.1.29)
-4- Changes in the script: enter the addresses to send and receive e-mail, SMTP user information and the wiringPi pin number to which the PIR sensor is connected to the project.c script.
-5- To compile the project file gcc project.c -o project -lwiringPi -llibquickmail
+1- Download and install all libraries except libquickmail.<br/>
+2- Extract the tar file of libquickmail. Terminal commands, respectively, to install the libquickmail library: ./configure, make, sudo su, make install, exit.<br/>
+3- Copy the project.c script into this folder, where you installed libquickmail. (../../libquickmail-0.1.29)<br/>
+4- Changes in the script: enter the addresses to send and receive e-mail, SMTP user information and the wiringPi pin number to which the PIR sensor is connected to the project.c script.<br/>
+5- To compile the project file gcc project.c -o project -lwiringPi -llibquickmail<br/>
 6- Run project: ./project
 
 ## Possible Mistakes and Errors
@@ -26,6 +26,6 @@ One of the potentiometers on the PIR sensor adjusts the sensitivity and the othe
 Check the pin number in the script. [Source for WiringPi pins](http://wiringpi.com/pins/)
 
 ## Libraries: 
-1- [libquickmail](https://sourceforge.net/projects/libquickmail/)
-2- [Wiring Pi](http://wiringpi.com/download-and-install/)
-3- [libcurl](https://curl.se/libcurl/)
+1- [libquickmail](https://sourceforge.net/projects/libquickmail/)<br/>
+2- [Wiring Pi](http://wiringpi.com/download-and-install/)<br/>
+3- [libcurl](https://curl.se/libcurl/)<br/>
