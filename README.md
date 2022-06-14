@@ -1,4 +1,4 @@
-# C Program to send e-mail when motion RaspberryPI
+# C Program to send e-mail when motion detected RaspberryPI
 C Program to send e-mail when motion is detected with RaspberryPI PIR sensor.<br/>
 [Source for PIR sensor](https://projects.raspberrypi.org/en/projects/physical-computing/11)
 
