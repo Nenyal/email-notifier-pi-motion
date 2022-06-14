@@ -2,7 +2,7 @@
 C Program to send e-mail when motion is detected with RaspberryPI PIR sensor.<br/>
 [Source for PIR sensor](https://projects.raspberrypi.org/en/projects/physical-computing/11)
 
-## Steps:
+## Steps
 1- Download and install all libraries except libquickmail.<br/>
 2- Extract the tar file of libquickmail. Terminal commands, respectively, to install the libquickmail library: ./configure, make, sudo su, make install, exit.<br/>
 3- Copy the project.c script into this folder, where you installed libquickmail. (../../libquickmail-0.1.29)<br/>
