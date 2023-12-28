@@ -1,7 +1,6 @@
 #include "quickmail.h"
 #include <stdio.h>
 #include <wiringPi.h>
-#include <stdio.h>
 #include <stdlib.h>
 
 #define FROM        "E-MAIL ADDRESS"
